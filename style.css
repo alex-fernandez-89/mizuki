@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./image/cerezopetalos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/****************NAV*******************/
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+}
+
+nav img{
+    width: 25vw;
+    height: 7vh;
+}
+
+
+
+/***************CARRUSEL****************/
+
+.carousel{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.carousel img{
+    height: 70vh;
+}
+
+.carousel-inner{
+    height: 70vh;
+}
+
+/****************CARDS******************/
+.productos{
+    
+}
+
+.productos h2{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.card{
+    margin: 1%;
+}
+
+/***************FOOTER******************/
+
+footer{
+    background-color: #F37335 ;
+    box-shadow: black 5px 5px 5px;
+    margin-top: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contacto{
+    margin: 2%;
+}
+
+.contacto a{
+    margin: 1%;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.container-boton{
+    background-color: #35a835fd;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.fa-whatsapp{
+    font-size: 3em;
+    color: white;
+}
